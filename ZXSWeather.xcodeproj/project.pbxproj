@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF776DB01C45190400C0D99F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF776DAF1C45190400C0D99F /* main.m */; };
+		BF776DB31C45190400C0D99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF776DB21C45190400C0D99F /* AppDelegate.m */; };
+		BF776DB61C45190400C0D99F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF776DB51C45190400C0D99F /* ViewController.m */; };
+		BF776DB91C45190400C0D99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF776DB71C45190400C0D99F /* Main.storyboard */; };
+		BF776DBC1C45190400C0D99F /* ZXSWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF776DBA1C45190400C0D99F /* ZXSWeather.xcdatamodeld */; };
+		BF776DBE1C45190400C0D99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF776DBD1C45190400C0D99F /* Assets.xcassets */; };
+		BF776DC11C45190400C0D99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF776DBF1C45190400C0D99F /* LaunchScreen.storyboard */; };
+		BF776DCC1C45190400C0D99F /* ZXSWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF776DCB1C45190400C0D99F /* ZXSWeatherTests.m */; };
+		BF776DD71C45190400C0D99F /* ZXSWeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF776DD61C45190400C0D99F /* ZXSWeatherUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF776DC81C45190400C0D99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF776DA31C45190400C0D99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF776DAA1C45190400C0D99F;
+			remoteInfo = ZXSWeather;
+		};
+		BF776DD31C45190400C0D99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF776DA31C45190400C0D99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF776DAA1C45190400C0D99F;
+			remoteInfo = ZXSWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF776DAB1C45190400C0D99F /* ZXSWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF776DAF1C45190400C0D99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF776DB11C45190400C0D99F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF776DB21C45190400C0D99F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF776DB41C45190400C0D99F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF776DB51C45190400C0D99F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF776DB81C45190400C0D99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF776DBB1C45190400C0D99F /* ZXSWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZXSWeather.xcdatamodel; sourceTree = "<group>"; };
+		BF776DBD1C45190400C0D99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF776DC01C45190400C0D99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF776DC21C45190400C0D99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF776DC71C45190400C0D99F /* ZXSWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF776DCB1C45190400C0D99F /* ZXSWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSWeatherTests.m; sourceTree = "<group>"; };
+		BF776DCD1C45190400C0D99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF776DD21C45190400C0D99F /* ZXSWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF776DD61C45190400C0D99F /* ZXSWeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSWeatherUITests.m; sourceTree = "<group>"; };
+		BF776DD81C45190400C0D99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF776DA81C45190400C0D99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DC41C45190400C0D99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DCF1C45190400C0D99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF776DA21C45190400C0D99F = {
+			isa = PBXGroup;
+			children = (
+				BF776DAD1C45190400C0D99F /* ZXSWeather */,
+				BF776DCA1C45190400C0D99F /* ZXSWeatherTests */,
+				BF776DD51C45190400C0D99F /* ZXSWeatherUITests */,
+				BF776DAC1C45190400C0D99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF776DAC1C45190400C0D99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF776DAB1C45190400C0D99F /* ZXSWeather.app */,
+				BF776DC71C45190400C0D99F /* ZXSWeatherTests.xctest */,
+				BF776DD21C45190400C0D99F /* ZXSWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF776DAD1C45190400C0D99F /* ZXSWeather */ = {
+			isa = PBXGroup;
+			children = (
+				BF776DB11C45190400C0D99F /* AppDelegate.h */,
+				BF776DB21C45190400C0D99F /* AppDelegate.m */,
+				BF776DB41C45190400C0D99F /* ViewController.h */,
+				BF776DB51C45190400C0D99F /* ViewController.m */,
+				BF776DB71C45190400C0D99F /* Main.storyboard */,
+				BF776DBD1C45190400C0D99F /* Assets.xcassets */,
+				BF776DBF1C45190400C0D99F /* LaunchScreen.storyboard */,
+				BF776DC21C45190400C0D99F /* Info.plist */,
+				BF776DBA1C45190400C0D99F /* ZXSWeather.xcdatamodeld */,
+				BF776DAE1C45190400C0D99F /* Supporting Files */,
+			);
+			path = ZXSWeather;
+			sourceTree = "<group>";
+		};
+		BF776DAE1C45190400C0D99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF776DAF1C45190400C0D99F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF776DCA1C45190400C0D99F /* ZXSWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF776DCB1C45190400C0D99F /* ZXSWeatherTests.m */,
+				BF776DCD1C45190400C0D99F /* Info.plist */,
+			);
+			path = ZXSWeatherTests;
+			sourceTree = "<group>";
+		};
+		BF776DD51C45190400C0D99F /* ZXSWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF776DD61C45190400C0D99F /* ZXSWeatherUITests.m */,
+				BF776DD81C45190400C0D99F /* Info.plist */,
+			);
+			path = ZXSWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF776DAA1C45190400C0D99F /* ZXSWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF776DDB1C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeather" */;
+			buildPhases = (
+				BF776DA71C45190400C0D99F /* Sources */,
+				BF776DA81C45190400C0D99F /* Frameworks */,
+				BF776DA91C45190400C0D99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXSWeather;
+			productName = ZXSWeather;
+			productReference = BF776DAB1C45190400C0D99F /* ZXSWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF776DC61C45190400C0D99F /* ZXSWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF776DDE1C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeatherTests" */;
+			buildPhases = (
+				BF776DC31C45190400C0D99F /* Sources */,
+				BF776DC41C45190400C0D99F /* Frameworks */,
+				BF776DC51C45190400C0D99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF776DC91C45190400C0D99F /* PBXTargetDependency */,
+			);
+			name = ZXSWeatherTests;
+			productName = ZXSWeatherTests;
+			productReference = BF776DC71C45190400C0D99F /* ZXSWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF776DD11C45190400C0D99F /* ZXSWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF776DE11C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeatherUITests" */;
+			buildPhases = (
+				BF776DCE1C45190400C0D99F /* Sources */,
+				BF776DCF1C45190400C0D99F /* Frameworks */,
+				BF776DD01C45190400C0D99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF776DD41C45190400C0D99F /* PBXTargetDependency */,
+			);
+			name = ZXSWeatherUITests;
+			productName = ZXSWeatherUITests;
+			productReference = BF776DD21C45190400C0D99F /* ZXSWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF776DA31C45190400C0D99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Z_小圣";
+				TargetAttributes = {
+					BF776DAA1C45190400C0D99F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DD4L9P34MJ;
+					};
+					BF776DC61C45190400C0D99F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DD4L9P34MJ;
+						TestTargetID = BF776DAA1C45190400C0D99F;
+					};
+					BF776DD11C45190400C0D99F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DD4L9P34MJ;
+						TestTargetID = BF776DAA1C45190400C0D99F;
+					};
+				};
+			};
+			buildConfigurationList = BF776DA61C45190400C0D99F /* Build configuration list for PBXProject "ZXSWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF776DA21C45190400C0D99F;
+			productRefGroup = BF776DAC1C45190400C0D99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF776DAA1C45190400C0D99F /* ZXSWeather */,
+				BF776DC61C45190400C0D99F /* ZXSWeatherTests */,
+				BF776DD11C45190400C0D99F /* ZXSWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF776DA91C45190400C0D99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF776DC11C45190400C0D99F /* LaunchScreen.storyboard in Resources */,
+				BF776DBE1C45190400C0D99F /* Assets.xcassets in Resources */,
+				BF776DB91C45190400C0D99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DC51C45190400C0D99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DD01C45190400C0D99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF776DA71C45190400C0D99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF776DBC1C45190400C0D99F /* ZXSWeather.xcdatamodeld in Sources */,
+				BF776DB61C45190400C0D99F /* ViewController.m in Sources */,
+				BF776DB31C45190400C0D99F /* AppDelegate.m in Sources */,
+				BF776DB01C45190400C0D99F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DC31C45190400C0D99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF776DCC1C45190400C0D99F /* ZXSWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF776DCE1C45190400C0D99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF776DD71C45190400C0D99F /* ZXSWeatherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF776DC91C45190400C0D99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF776DAA1C45190400C0D99F /* ZXSWeather */;
+			targetProxy = BF776DC81C45190400C0D99F /* PBXContainerItemProxy */;
+		};
+		BF776DD41C45190400C0D99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF776DAA1C45190400C0D99F /* ZXSWeather */;
+			targetProxy = BF776DD31C45190400C0D99F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF776DB71C45190400C0D99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF776DB81C45190400C0D99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF776DBF1C45190400C0D99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF776DC01C45190400C0D99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF776DD91C45190400C0D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF776DDA1C45190400C0D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF776DDC1C45190400C0D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXSWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF776DDD1C45190400C0D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXSWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF776DDF1C45190400C0D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXSWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXSWeather.app/ZXSWeather";
+			};
+			name = Debug;
+		};
+		BF776DE01C45190400C0D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXSWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXSWeather.app/ZXSWeather";
+			};
+			name = Release;
+		};
+		BF776DE21C45190400C0D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXSWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXSWeather;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF776DE31C45190400C0D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXSWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxs.ZXSWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXSWeather;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF776DA61C45190400C0D99F /* Build configuration list for PBXProject "ZXSWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF776DD91C45190400C0D99F /* Debug */,
+				BF776DDA1C45190400C0D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF776DDB1C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF776DDC1C45190400C0D99F /* Debug */,
+				BF776DDD1C45190400C0D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF776DDE1C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF776DDF1C45190400C0D99F /* Debug */,
+				BF776DE01C45190400C0D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF776DE11C45190400C0D99F /* Build configuration list for PBXNativeTarget "ZXSWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF776DE21C45190400C0D99F /* Debug */,
+				BF776DE31C45190400C0D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF776DBA1C45190400C0D99F /* ZXSWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF776DBB1C45190400C0D99F /* ZXSWeather.xcdatamodel */,
+			);
+			currentVersion = BF776DBB1C45190400C0D99F /* ZXSWeather.xcdatamodel */;
+			path = ZXSWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF776DA31C45190400C0D99F /* Project object */;
+}
