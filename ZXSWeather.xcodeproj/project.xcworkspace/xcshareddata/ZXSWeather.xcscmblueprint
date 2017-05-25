@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD9BB7BB-2918-445B-B55B-F001C860EBF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : "ZXSWeather\/ZXSWeather\/MBProgressHUD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZXSWeather",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZXSWeather.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/60.28.29.48:8082\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340"
+    }
+  ]
+}
